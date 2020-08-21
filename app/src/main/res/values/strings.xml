@@ -1,0 +1,693 @@
+<!--
+  ~ Property of:				GreenDot Management Systems Inc.
+  ~ 		                                               A Division Of
+  ~                                                 Corstan Systems Inc.
+  ~
+  ~ Written By: Ryan Stander
+  ~ ryanstander@gmail.com
+  ~ June 17, 2020
+  ~
+  ~ Copyright (c)     TradeMark Reserved (tm)
+  ~
+  -->
+
+<resources>
+    <string name="app_name">Corstan -- CC -- GreenDot</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_closed">Drawer Closed</string>
+    <string name="iaste_permitee">IASTE - Permitee</string>
+    <string name="textview">TextView</string>
+    <string name="profile">Profile</string>
+    <string name="paperwork">Paperwork</string>
+
+    //||\\ Production Format - CreateEditShow
+    <string-array name="production_format_array">
+        <item>Episodic</item>
+        <item>Feature</item>
+        <item>Reality</item>
+        <item>Commercial</item>
+        <item>Indy</item>
+        <!--        <item>Friday</item>-->
+        <!--        <item>Saturday</item>-->
+
+    </string-array>
+
+
+    //||\\ Days of The Week Array
+    <string-array name="days_of_the_week_array">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+
+    </string-array>
+
+
+    //||\\String Arrays for Profile Activities
+    //Country String Array
+    <string-array name="country_array">
+        <item></item>
+        <item>Canada</item>
+        <item>United States</item>
+    </string-array>
+    <string-array name="countries_array">
+        <item>Country...</item>
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>American Samoa</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antarctica</item>
+        <item>Antigua and Barbuda</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Bahamas</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Botswana</item>
+        <item>Brazil</item>
+        <item>British Indian Ocean Territory</item>
+        <item>British Virgin Islands</item>
+        <item>Brunei</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Burundi</item>
+        <item>Cambodia</item>
+        <item>Cameroon</item>
+        <item>Canada</item>
+        <item>Cape Verde</item>
+        <item>Cayman Islands</item>
+        <item>Central African Republic</item>
+        <item>Chad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Christmas Island</item>
+        <item>Cocos Islands</item>
+        <item>Colombia</item>
+        <item>Comoros</item>
+        <item>Cook Islands</item>
+        <item>Costa Rica</item>
+        <item>Croatia</item>
+        <item>Cuba</item>
+        <item>Cyprus</item>
+        <item>Czech Republic</item>
+        <item>Democratic Republic of the Congo</item>
+        <item>Denmark</item>
+        <item>Djibouti</item>
+        <item>Dominica</item>
+        <item>Dominican Republic</item>
+        <item>East Timor</item>
+        <item>Ecuador</item>
+        <item>Egypt</item>
+        <item>El Salvador</item>
+        <item>Equatorial Guinea</item>
+        <item>Eritrea</item>
+        <item>Estonia</item>
+        <item>Ethiopia</item>
+        <item>Falkland Islands</item>
+        <item>Faroe Islands</item>
+        <item>Fiji</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>French Polynesia</item>
+        <item>Gabon</item>
+        <item>Gambia</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Greece</item>
+        <item>Greenland</item>
+        <item>Grenada</item>
+        <item>Guam</item>
+        <item>Guatemala</item>
+        <item>Guinea</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Ireland</item>
+        <item>Isle of Man</item>
+        <item>Israel</item>
+        <item>Italy</item>
+        <item>Ivory Coast</item>
+        <item>Jamaica</item>
+        <item>Japan</item>
+        <item>Jersey</item>
+        <item>Jordan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>Kiribati</item>
+        <item>Kuwait</item>
+        <item>Kyrgyzstan</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lebanon</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item>Liechtenstein</item>
+        <item>Lithuania</item>
+        <item>Luxembourg</item>
+        <item>Macao</item>
+        <item>Macedonia</item>
+        <item>Madagascar</item>
+        <item>Malawi</item>
+        <item>Malaysia</item>
+        <item>Maldives</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Marshall Islands</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Mayotte</item>
+        <item>Mexico</item>
+        <item>Micronesia</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Mongolia</item>
+        <item>Montenegro</item>
+        <item>Montserrat</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Myanmar</item>
+        <item>Namibia</item>
+        <item>Nauru</item>
+        <item>Nepal</item>
+        <item>Netherlands</item>
+        <item>Netherlands Antilles</item>
+        <item>New Caledonia</item>
+        <item>New Zealand</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Niue</item>
+        <item>North Korea</item>
+        <item>Northern Mariana Islands</item>
+        <item>Norway</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Panama</item>
+        <item>Papua New Guinea</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippines</item>
+        <item>Pitcairn</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Qatar</item>
+        <item>Republic of the Congo</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>Rwanda</item>
+        <item>Saint Barthelemy</item>
+        <item>Saint Helena</item>
+        <item>Saint Kitts and Nevis</item>
+        <item>Saint Lucia</item>
+        <item>Saint Martin</item>
+        <item>Saint Pierre and Miquelon</item>
+        <item>Saint Vincent and the Grenadines</item>
+        <item>Samoa</item>
+        <item>San Marino</item>
+        <item>Sao Tome and Principe</item>
+        <item>Saudi Arabia</item>
+        <item>Senegal</item>
+        <item>Serbia</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Singapore</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Solomon Islands</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>South Georgia and the South Sandwich Islands</item>
+        <item>South Korea</item>
+        <item>Spain</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Suriname</item>
+        <item>Svalbard and Jan Mayen</item>
+        <item>Swaziland</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Syria</item>
+        <item>Taiwan</item>
+        <item>Tajikistan</item>
+        <item>Tanzania</item>
+        <item>Thailand</item>
+        <item>Togo</item>
+        <item>Tokelau</item>
+        <item>Tonga</item>
+        <item>Trinidad and Tobago</item>
+        <item>Tunisia</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>Turks and Caicos Islands</item>
+        <item>Tuvalu</item>
+        <item>U.S. Virgin Islands</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>United Arab Emirates</item>
+        <item>United Kingdom</item>
+        <item>United States</item>
+        <item>Uruguay</item>
+        <item>Uzbekistan</item>
+        <item>Vanuatu</item>
+        <item>Vatican</item>
+        <item>Venezuela</item>
+        <item>Vietnam</item>
+        <item>Wallis and Futuna</item>
+        <item>Western Sahara</item>
+        <item>Yemen</item>
+        <item>Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+    //Canada Province Array
+    <string-array name="na_ca_province_array">
+        <item>Province...</item>
+        <item>AB</item>
+        <item>BC</item>
+        <!--        <item>MB</item>-->
+        <!--        <item>NF</item>-->
+        <!--        <item>NT</item>-->
+        <!--        <item>NS</item>-->
+        <!--        <item>NU</item>-->
+        <item>ON</item>
+        <!--        <item>PE</item>-->
+        <!--        <item>PQ</item>-->
+        <!--        <item>SK</item>-->
+        <!--        <item>YT</item>-->
+    </string-array>
+    //Canada City Array
+    <string-array name="na_ca_bc_hubs">
+        <item>City...</item>
+        <item>Vancouver</item>
+        <item>Victoria</item>
+    </string-array>
+    <string-array name="na_ca_on_hubs">
+        <item>City...</item>
+        <item>Ottawa</item>
+        <item>Toronto</item>
+    </string-array>
+    <string-array name="na_ca_ab_hubs">
+        <item>City...</item>
+        <item>Calgary</item>
+        <item>Edmonton</item>
+    </string-array>
+    //USA State Array
+    <string-array name="na_usa_states_array">
+        <item>Select State...</item>
+
+        <!--        <item>AL</item>-->
+        <!--        <item>AR</item>-->
+        <!--        <item>AZ</item>-->
+        <item>CA</item>
+        <!--        <item>CO</item>-->
+        <!--        <item>CT</item>-->
+        <!--        <item>DE</item>-->
+        <!--        <item>DC</item>-->
+        <!--        <item>FL</item>-->
+        <item>GA</item>
+        <!--        <item>HI</item>-->
+        <!--        <item>ID</item>-->
+        <!--        <item>IL</item>-->
+        <!--        <item>IN</item>-->
+        <!--        <item>IA</item>-->
+        <!--        <item>KS</item>-->
+        <!--        <item>KY</item>-->
+        <!--        <item>LA</item>-->
+        <!--        <item>ME</item>-->
+        <!--        <item>MD</item>-->
+        <!--        <item>MA</item>-->
+        <!--        <item>MI</item>-->
+        <!--        <item>MN</item>-->
+        <!--        <item>MS</item>-->
+        <!--        <item>MO</item>-->
+        <!--        <item>MT</item>-->
+        <!--        <item>NE</item>-->
+        <!--        <item>NV</item>-->
+        <!--        <item>NH</item>-->
+        <!--        <item>NJ</item>-->
+        <!--        <item>NM</item>-->
+        <item>NY</item>
+        <!--        <item>NC</item>-->
+        <!--        <item>ND</item>-->
+        <!--        <item>OH</item>-->
+        <!--        <item>OK</item>-->
+        <!--        <item>OR</item>-->
+        <!--        <item>PA</item>-->
+        <!--        <item>RI</item>-->
+        <!--        <item>SC</item>-->
+        <!--        <item>SD</item>-->
+        <!--        <item>TN</item>-->
+        <!--        <item>TX</item>-->
+        <!--        <item>UT</item>-->
+        <!--        <item>VT</item>-->
+        <!--        <item>VA</item>-->
+        <item>WA</item>
+        <!--        <item>WV</item>-->
+        <!--        <item>WI</item>-->
+        <!--        <item>WY</item>-->
+    </string-array>
+    //USA City Array
+    <string-array name="na_usa_ca_hubs">
+        <item>Los Angeles</item>
+        <item>San Francisco</item>
+    </string-array>
+    <string-array name="na_usa_ga_hubs">
+        <item>Atlanta</item>
+    </string-array>
+    <string-array name="na_usa_ny_hubs">
+        <item>New York</item>
+    </string-array>
+    <string-array name="na_usa_wa_hubs">
+        <item>Seattle</item>
+    </string-array>
+    //\\//Department and Jobs
+    //Primary Department String Array
+    <string-array name="primary_department_array">
+        <item>Primary Department...</item>
+        <item>Production</item>
+        <item>Assistant Director</item>
+        <item>Accounting</item>
+        <item>Camera</item>
+        <item>Script Supervisor</item>
+        <item>Lighting</item>
+        <item>Grips</item>
+        <item>Sound</item>
+        <item>VFX</item>
+        <item>SPFX</item>
+        <item>Make Up</item>
+        <item>Hair</item>
+        <item>Costumes</item>
+        <item>Art Department</item>
+        <item>Set Decoration</item>
+        <item>Props</item>
+        <item>Construction</item>
+        <item>Paint</item>
+        <item>Greens</item>
+        <item>Transportation</item>
+        <item>Locations</item>
+        <item>First Aid/Craft Service</item>
+        <item>Catering</item>
+        <item>Security</item>
+        <item>PlayBack</item>
+    </string-array>
+    //Primary Position String Array
+    <string-array name="production_array">
+        <item>Production Manager</item>
+        <item>Unit Manager</item>
+        <item>Production Coordinator</item>
+        <item>Co-Prod. Coordinator</item>
+        <item>1st Asst. Coordinator</item>
+        <item>2nd Asst. Coordinator</item>
+        <item>Office PA</item>
+        <item>Producer Assistant</item>
+        <item>Cast Assistant</item>
+        <item>Approvals Coordinator</item>
+    </string-array>
+    <string-array name="assistant_director_array">
+        <item>1st AD</item>
+        <item>1st AD (Odd)</item>
+        <item>1st AD (Even)</item>
+        <item>2nd AD (Odd)</item>
+        <item>2nd AD (Even)</item>
+        <item>3rd AD (Trailers)</item>
+        <item>3rd AD (Set)</item>
+        <item>TAD</item>
+    </string-array>
+    <string-array name="accounting_array">
+        <item>Production Accountant</item>
+        <item>1st Asst. Accountant</item>
+        <item>Asst. Accountant</item>
+        <item>Petty Cash Asst.</item>
+        <item>Payroll Asst.</item>
+        <item>Accounting Clerk</item>
+    </string-array>
+    <string-array name="camera_array">
+        <item>DOP</item>
+        <item>DOP (Odd)</item>
+        <item>DOP (Even)</item>
+        <item>A Cam Op</item>
+        <item>A Cam 1st AC</item>
+        <item>A Cam 2nd AC</item>
+        <item>B Cam Op</item>
+        <item>B Cam 1st AC</item>
+        <item>B Cam 2nd AC</item>
+        <item>DIT</item>
+        <item>Trainee</item>
+    </string-array>
+    <string-array name="script_supervisor_array">
+        <item>Script Supervisor (Evens)</item>
+    </string-array>
+    <string-array name="lighting_array">
+        <item>Gaffer</item>
+        <item>Best Boy</item>
+        <item>Genny Op</item>
+        <item>Lamp Op</item>
+        <item>Board Op</item>
+        <item>Rigging Gaffer</item>
+        <item>Elex Rigging BB </item>
+        <item>Elex Rigging Lamp Op</item>
+    </string-array>
+    <string-array name="grip_array">
+        <item>Key Grip</item>
+        <item>Best Boy</item>
+        <item>A-Dolly Grip</item>
+        <item>B-Dolly Grip</item>
+        <item>Leadman</item>
+        <item>Grip</item>
+        <item>On Set Rigger</item>
+        <item>Key Rigging Grip</item>
+        <item>Rigging BB Grip</item>
+        <item>Leadman Rigging Grip</item>
+        <item>Elex Rigging Lamp Op</item>
+    </string-array>
+    <string-array name="sound_array">
+        <item>Sound Mixer</item>
+        <item>Boom Op</item>
+        <item>Sound Asst.</item>
+    </string-array>
+    <string-array name="vfx_array">
+        <item>VFX Supervisor</item>
+        <item>VFX Producer</item>
+        <item>VFX Coordinator</item>
+
+    </string-array>
+    <string-array name="spfx_array">
+        <item>SPFX Coordinator</item>
+        <item>SPFX 1st Asst</item>
+        <item>SPFX Set Supervisor</item>
+        <item>SPFX Asst.</item>
+
+    </string-array>
+    <string-array name="makeup_array">
+        <item>MakeUp HOD</item>
+        <item>Key Makeup</item>
+        <item>1st Asst. MakeUp</item>
+        <item>Primary Position</item>
+        <item>Key FX Artist</item>
+        <item>FX Coordinator</item>
+        <item>FX APC</item>
+    </string-array>
+    <string-array name="hair_array">
+        <item>Hair HOD</item>
+        <item>Key Hair</item>
+        <item>1st Asst. Hair</item>
+        <item>2nd Asst. Hair</item>
+    </string-array>
+    <string-array name="costumes_array">
+        <item>Designer</item>
+        <item>Asst. Designer</item>
+        <item>BG Coordinator</item>
+        <item>BG Costumer</item>
+        <item>BG Truck Costumer</item>
+        <item>Set Supervisor</item>
+        <item>Truck Costumer</item>
+        <item>Asst Truck Costumer</item>
+        <item>Set Costumer</item>
+    </string-array>
+    <string-array name="art_Department_array">
+        <item>Production Designer</item>
+        <item>Art Director (Odd)</item>
+        <item>Art Director (Even)</item>
+        <item>Asst. Art Director</item>
+        <item>Graphics</item>
+        <item>Art Dept Coordinator</item>
+    </string-array>
+    <string-array name="set_decoration_array">
+        <item>Set Decorator</item>
+        <item>Co Decorator</item>
+        <item>2nd Asst Set Decorator</item>
+        <item>Set Dec Coordinator</item>
+        <item>Lead Dresser</item>
+        <item>(2nd Lead) Set Dresser</item>
+        <item>Set Dresser</item>
+        <item>On Set Dresser</item>
+
+    </string-array>
+    <string-array name="props_array">
+        <item>Props Master</item>
+        <item>Asst. Props Master (Office)</item>
+        <item>Asst. Props Master (Odd)</item>
+        <item>Asst. Props Master (Even)</item>
+        <item>Asst. Props Master</item>
+        <item>Props Buyer</item>
+        <item>Props Truck</item>
+        <item>Props Asst</item>
+    </string-array>
+    <string-array name="construction_array">
+        <item>Coordinator</item>
+        <item>Construction Foreman</item>
+        <item>Construction Buyer</item>
+        <item>Lead Carp</item>
+        <item>Construction FA Shop</item>
+        <item>On Set Carpenter</item>
+        <item>Carpenter</item>
+    </string-array>
+    <string-array name="paint_array">
+        <item>Paint Coordinator</item>
+        <item>On Set Paint</item>
+    </string-array>
+    <string-array name="greens_array">
+        <item>Head Greens</item>
+        <item>On Set Greens</item>
+        <item>Greensman</item>
+    </string-array>
+    <string-array name="playback_array">
+        <item>Playback Supervisor</item>
+        <item>Playback Op</item>
+    </string-array>
+    <string-array name="security_array">
+        <item>Security Captain</item>
+        <item>Cast Security</item>
+        <item>Security Guard</item>
+    </string-array>
+    <string-array name="transportation_array">
+        <item>Coordinator</item>
+        <item>Captain</item>
+        <item>Co-Captain</item>
+        <item>Assistant / Cast Driver</item>
+        <item>Scout Van Driver</item>
+        <item>Cast Van Driver</item>
+        <item>Director Driver</item>
+        <item>Shuttle Driver</item>
+        <item>Honeywagon Driver</item>
+        <item>Hair / MakeUp Driver</item>
+        <item>Wardrobe Driver</item>
+        <item>Flat Deck / Water Trk Driver</item>
+        <item>Cast Trailer Driver</item>
+        <item>HM Wardrobe Driver</item>
+        <item>Grip Driver</item>
+        <item>Camera Truck Driver</item>
+        <item>Fuel Truck Driver</item>
+        <item>Cable Truck Driver</item>
+        <item>Picture Car Coordinator</item>
+        <item>Pic Car Asst</item>
+        <item>Addl Drivers</item>
+    </string-array>
+    <string-array name="locations_array">
+        <item>Location Manager</item>
+        <item>Location Manager (Odd)</item>
+        <item>Location Manager (Even)</item>
+        <item>Location Manager (Prep)</item>
+        <item>ALM</item>
+        <item>ALM (Odd)</item>
+        <item>ALM (Even)</item>
+        <item>ALM (Prep)</item>
+        <item>Scout</item>
+        <item>TAL</item>
+        <item>Key PA (Office)</item>
+        <item>Key PA (Set)</item>
+        <item>Key PA (Off Set)</item>
+        <item>Key PA (Prep)</item>
+        <item>Key PA (Van Driver)</item>
+        <item>PA (Van Driver)</item>
+        <item>PA (Prep)</item>
+        <item>PA</item>
+    </string-array>
+    <string-array name="facs_array">
+        <item>Key FACS</item>
+        <item>Key FACS (Odd)</item>
+        <item>Key FACS (Even)</item>
+        <item>FACS Asst</item>
+        <item>CS Asst</item>
+    </string-array>
+    <string-array name="catering_array">
+        <item>Chef</item>
+        <item>Asst Chef</item>
+
+    </string-array>
+
+
+    //||\\ Create Show Activity
+    <string-array name="join_create_array">
+        <item>Join Show</item>
+        <item>Create Show</item>
+    </string-array>
+
+
+    <!--    //||\\-->
+    <!--        <string-array name="production_array">-->
+    <!--            <item>Primary Position</item>-->
+    <!--            <item></item>-->
+    <!--            <item></item>-->
+    <!--            <item></item>-->
+    <!--            <item></item>-->
+    <!--            <item></item>-->
+    <!--            <item></item>-->
+    <!--            <item></item>-->
+    <!--            <item></item>-->
+    <!--            <item></item>-->
+    <!--            <item></item>-->
+    <!--            <item></item>-->
+    <!--            <item></item>-->
+    <!--        </string-array>-->
+
+
+    //||\\
+    <!--    <string-array name="production_array">-->
+    <!--        <item>Primary Position</item>-->
+    <!--        <item></item>-->
+    <!--        <item></item>-->
+    <!--        <item></item>-->
+    <!--        <item></item>-->
+    <!--        <item></item>-->
+    <!--        <item></item>-->
+    <!--        <item></item>-->
+    <!--        <item></item>-->
+    <!--        <item></item>-->
+    <!--        <item></item>-->
+    <!--        <item></item>-->
+    <!--        <item></item>-->
+    <!--    </string-array>-->
+</resources>
+

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Property of:				GreenDot Management Systems Inc.
+  ~ 		                                               A Division Of
+  ~                                                 Corstan Systems Inc.
+  ~
+  ~ Written By: Ryan Stander
+  ~ ryanstander@gmail.com
+  ~ June 17, 2020
+  ~
+  ~ Copyright (c)     TradeMark Reserved (tm)
+  ~
+  -->
+
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+<!--    tools:context=".EditDayActivity">-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            android:id="@+id/main_page_toolbar"
+            layout="@layout/app_bar_layout">
+        </include>
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="512dp"
+        android:layout_below="@+id/main_page_toolbar"
+        android:layout_marginTop="0dp"
+        android:clickable="true"
+        android:focusable="true">
+
+    <LinearLayout
+        android:id="@+id/scrollLiniearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+
+
+
+        android:orientation="vertical"
+        android:clickable="true"
+        android:focusable="true">
+
+    <Button
+        android:id="@+id/manageLocationsB"
+        android:layout_width="250dp"
+        android:layout_height="36dp"
+        android:clickable="true"
+        android:background="@drawable/button_377x144_cc_purple"
+        android:shadowColor="#00948E8E"
+        android:shadowRadius="5"
+        android:text="Manage Locations"
+        android:textColor="#FFFFFF"
+
+        android:layout_gravity="center_horizontal"
+        android:focusable="true" />
+
+    </LinearLayout>
+    </ScrollView>
+    </RelativeLayout>
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Property of:				GreenDot Management Systems Inc.
+  ~ 		                                               A Division Of
+  ~                                                 Corstan Systems Inc.
+  ~
+  ~ Written By: Ryan Stander
+  ~ ryanstander@gmail.com
+  ~ June 17, 2020
+  ~
+  ~ Copyright (c)     TradeMark Reserved (tm)
+  ~
+  -->
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="340dp"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/showCardShowName"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+
+            android:textSize="18dp" />
+<!--        android:hint="Show Name"-->
+
+        <TextView
+            android:id="@+id/showCardShowSeason"
+            style="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="3dp"
+            android:layout_toEndOf="@+id/showCardShowName"
+
+            android:layout_toRightOf="@+id/showCardShowName"
+            android:hint=""
+            android:textSize="18dp" />
+
+
+        <TextView
+            android:id="@+id/showCardShowCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+
+
+            android:layout_marginLeft="3dp"
+
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+<!--        android:hint="Show City"-->
+
+        <Button
+            android:id="@+id/showCardJoinShowB"
+            android:layout_width="121dp"
+            android:layout_height="15dp"
+            android:textSize="10sp"
+            android:layout_marginStart="200dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="32dp"
+           android:background="@android:color/holo_green_dark"
+            android:clickable="true"
+            android:shadowColor="#00948E8E"
+            android:shadowRadius="5"
+            android:text="Join Show"
+            />
+
+        <Button
+            android:id="@+id/showCardShowInformation"
+            android:layout_width="121dp"
+            android:layout_height="15dp"
+
+
+            android:layout_marginStart="200dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/holo_blue_light"
+            android:clickable="true"
+            android:shadowColor="#00948E8E"
+            android:shadowRadius="5"
+            android:text="Show Information"
+            android:textSize="10sp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

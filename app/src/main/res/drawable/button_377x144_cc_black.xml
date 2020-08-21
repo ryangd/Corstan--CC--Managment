@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Property of:				GreenDot Management Systems Inc.
+  ~ 		                                               A Division Of
+  ~                                                 Corstan Systems Inc.
+  ~
+  ~ Written By: Ryan Stander
+  ~ ryanstander@gmail.com
+  ~ June 17, 2020
+  ~
+  ~ Copyright (c)     TradeMark Reserved (tm)
+  ~
+  -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+    <corners
+        android:radius="34dp"
+        />
+    <gradient
+        android:angle="45"
+        android:startColor="#000000"
+        android:centerColor="#000000"
+        android:endColor="#000000"
+        android:gradientRadius="10dp"
+
+
+        />
+    <padding
+        android:left="0dp"
+        android:top="0dp"
+        android:right="0dp"
+        android:bottom="0dp"
+        />
+    <size
+        android:width="377dp"
+        android:height="144dp"
+        />
+    <stroke
+        android:width="0.5dp"
+        android:color="#000000"
+        />
+</shape>

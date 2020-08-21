@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Property of:				GreenDot Management Systems Inc.
+  ~ 		                                               A Division Of
+  ~                                                 Corstan Systems Inc.
+  ~
+  ~ Written By: Ryan Stander
+  ~ ryanstander@gmail.com
+  ~ June 17, 2020
+  ~
+  ~ Copyright (c)     TradeMark Reserved (tm)
+  ~
+  -->
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardElevation="10dp"
+    android:id="@+id/parent_layout">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/staffCardFullName"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_alignParentLeft="true"
+
+        />
+
+    <TextView
+        android:id="@+id/staffCardPosition"
+        android:layout_width="99dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="99dp"
+
+        android:hint="Position" />
+
+</androidx.cardview.widget.CardView>

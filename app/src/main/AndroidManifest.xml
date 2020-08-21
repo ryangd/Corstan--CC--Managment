@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Property of:				GreenDot Management Systems Inc.
+  ~ 		                                               A Division Of
+  ~                                                 Corstan Systems Inc.
+  ~
+  ~ Written By: Ryan Stander
+  ~ ryanstander@gmail.com
+  ~ June 17, 2020
+  ~
+  ~ Copyright (c)     TradeMark Reserved (tm)
+  ~
+  -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.corstan__cc__managment">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:versionName = "v0.8"
+        android:allowBackup="true"
+        android:icon="@mipmap/greedot_2020_logo"
+        android:label="GreenDot"
+        android:roundIcon="@mipmap/greedot_2020_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ManageSelectDayActivity"></activity>
+
+        <activity android:name=".SelectDayActivity" />
+        <activity android:name=".ManageSetsActivity" />
+        <activity android:name=".ManageScenesActivity" />
+        <activity android:name=".ManageDaysActivity" />
+        <activity android:name=".ManageLocationsActivity" />
+        <activity android:name=".TestActivity" />
+        <activity android:name=".CreateJoinShowActivity" />
+        <activity android:name=".ManageStaffActivity" />
+        <activity android:name=".SignInActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity android:name=".SignUpProfileActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".AddLocationActivity" />
+        <activity android:name=".EditDayActivity" />
+
+        <activity android:name=".ScheduleActivity" />
+        <activity android:name=".CreateDayActivity" />
+        <activity android:name=".CreateShowActivity" />
+        <activity android:name=".PaperworkActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

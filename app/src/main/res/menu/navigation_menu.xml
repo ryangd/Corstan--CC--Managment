@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Property of:				GreenDot Management Systems Inc.
+  ~ 		                                               A Division Of
+  ~                                                 Corstan Systems Inc.
+  ~
+  ~ Written By: Ryan Stander
+  ~ ryanstander@gmail.com
+  ~ June 17, 2020
+  ~
+  ~ Copyright (c)     TradeMark Reserved (tm)
+  ~
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    <Item-->
+<!--        android:id="@+id/nav_create_day"-->
+<!--        android:title="Create Day"-->
+<!--        android:icon="@drawable/add_post"-->
+<!--        />-->
+<item
+    android:id="@+id/nav_create_day"
+    android:title="Create Day"
+    android:icon="@drawable/add_post"
+    />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/profile_icon"
+        />
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/home"
+        />
+
+    <item
+        android:id="@+id/nav_friends"
+        android:title="Manage Show"
+        android:icon="@drawable/friends"
+        />
+    <item
+        android:id="@+id/nav_find_friends"
+        android:title="Find Friends"
+        android:icon="@drawable/find_people"
+        />
+    <item
+        android:id="@+id/nav_messages"
+        android:title="Messages"
+        android:icon="@drawable/messages"
+        />
+    <item
+        android:id="@+id/nav_memes"
+        android:title="Le Memes"
+        />
+    <item
+        android:id="@+id/nav_settings"
+        android:title="Settings"
+        android:icon="@drawable/settings"
+        />
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout"
+        android:icon="@drawable/logout"
+        />
+
+</menu>

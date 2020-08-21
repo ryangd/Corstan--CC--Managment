@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Property of:				GreenDot Management Systems Inc.
+  ~ 		                                               A Division Of
+  ~                                                 Corstan Systems Inc.
+  ~
+  ~ Written By: Ryan Stander
+  ~ ryanstander@gmail.com
+  ~ June 17, 2020
+  ~
+  ~ Copyright (c)     TradeMark Reserved (tm)
+  ~
+  -->
+
+<resources>
+    <color name="colorPrimary">#391C83</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#E4E1E1</color>
+    <color name="buttoncolorccpurple">#4924A8</color>
+    <color name="buttonblack">#000000</color>
+    <color name="ccBlue">#8898FD</color>
+    <color name="dayCardToday">#0D8009</color>
+</resources>

@@ -1,0 +1,40 @@
+<!--
+  ~ Property of:				GreenDot Management Systems Inc.
+  ~ 		                                               A Division Of
+  ~                                                 Corstan Systems Inc.
+  ~
+  ~ Written By: Ryan Stander
+  ~ ryanstander@gmail.com
+  ~ June 17, 2020
+  ~
+  ~ Copyright (c)     TradeMark Reserved (tm)
+  ~
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="150dp"
+    android:height="150dp"
+    android:viewportWidth="150"
+    android:viewportHeight="150">
+  <path
+      android:pathData="M74.7,37.4l-17,9.7l0,21l17,9.9l17,-9.7l0,-20.9z"
+      android:fillColor="#5BBA47"/>
+  <path
+      android:pathData="M74.7,57.7l-17,10.4l17,9.9l17,-9.7z"
+      android:fillColor="#0A6A36"/>
+  <path
+      android:pathData="M74.7,79L56.1,68.1l18.6,-11.3l18.6,11.6L74.7,79zM59.3,68l15.4,9l15.4,-8.8l-15.4,-9.6L59.3,68z"
+      android:fillColor="#3A3537"/>
+  <path
+      android:pathData="M74.6,95.4L43.1,76.9l0,-38.8l31.6,-18l31.5,18.5l0,38.8L74.6,95.4zM44.8,75.9l29.9,17.5l29.9,-17.1l0,-36.9L74.7,22L44.8,39.1L44.8,75.9z"
+      android:fillColor="#3A3537"/>
+  <path
+      android:pathData="M74.7,79L56.8,68.5l0,-21.9l17.8,-10.2l17.8,10.5l0,21.9L74.7,79zM58.5,67.6l16.2,9.5l16.2,-9.3l0,-20l-16.2,-9.5l-16.2,9.3L58.5,67.6z"
+      android:fillColor="#3A3537"/>
+  <path
+      android:pathData="M43.532,75.671l13.762,-8.354l0.882,1.453l-13.762,8.354z"
+      android:fillColor="#3A3537"/>
+  <path
+      android:pathData="M91.231,69.006l0.899,-1.443l13.664,8.515l-0.899,1.443z"
+      android:fillColor="#3A3537"/>
+</vector>

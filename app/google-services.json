@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "970380648960",
+    "firebase_url": "https://corstan-ccs.firebaseio.com",
+    "project_id": "corstan-ccs",
+    "storage_bucket": "corstan-ccs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970380648960:android:2d5eefb799d757f98d6ee5",
+        "android_client_info": {
+          "package_name": "com.corstan_cc_employer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970380648960-9kq6ajsnn8djcr10aemgktf44po7gjbi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfgxV9oBNTrXUs2gPnYhoWwyES1wa876E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970380648960-9kq6ajsnn8djcr10aemgktf44po7gjbi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970380648960:android:a090019a363458748d6ee5",
+        "android_client_info": {
+          "package_name": "com.example.corstan__cc__employee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970380648960-68rq6hig1b26jvn2t9e8sura4amdv8j7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.corstan__cc__employee",
+            "certificate_hash": "58b5a885085f9da6ff7d2ff214ded9c7abc57d97"
+          }
+        },
+        {
+          "client_id": "970380648960-9kq6ajsnn8djcr10aemgktf44po7gjbi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfgxV9oBNTrXUs2gPnYhoWwyES1wa876E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970380648960-9kq6ajsnn8djcr10aemgktf44po7gjbi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970380648960:android:b8ca2da600890aea8d6ee5",
+        "android_client_info": {
+          "package_name": "com.example.corstan__cc__managment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970380648960-j1a5id9rjbod9175cpcuepelfs37f4r8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.corstan__cc__managment",
+            "certificate_hash": "58b5a885085f9da6ff7d2ff214ded9c7abc57d97"
+          }
+        },
+        {
+          "client_id": "970380648960-9kq6ajsnn8djcr10aemgktf44po7gjbi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfgxV9oBNTrXUs2gPnYhoWwyES1wa876E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970380648960-9kq6ajsnn8djcr10aemgktf44po7gjbi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

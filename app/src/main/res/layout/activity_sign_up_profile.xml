@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Property of:				GreenDot Management Systems Inc.
+  ~ 		                                               A Division Of
+  ~                                                 Corstan Systems Inc.
+  ~
+  ~ Written By: Ryan Stander
+  ~ ryanstander@gmail.com
+  ~ June 17, 2020
+  ~
+  ~ Copyright (c)     TradeMark Reserved (tm)
+  ~
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent">
+
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        >-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+            <!--    <CheckBox-->
+            <!--        android:id="@+id/checkBoxIASTEPermitee"-->
+            <!--        android:layout_width="wrap_content"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:text="IASTE - Permitee"-->
+            <!--        android:textColor="#000000"-->
+            <!--        app:layout_constraintEnd_toEndOf="parent"-->
+            <!--        app:layout_constraintHorizontal_bias="0.457"-->
+            <!--        app:layout_constraintStart_toStartOf="parent"-->
+            <!--        app:layout_constraintTop_toBottomOf="@+id/textView5" />-->
+
+            <!--    <CheckBox-->
+            <!--        android:id="@+id/checkBoxACFCPermitee"-->
+            <!--        android:layout_width="wrap_content"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:text="ACFC - Permitee"-->
+            <!--        android:textColor="#000000"-->
+            <!--        app:layout_constraintBottom_toBottomOf="@+id/checkBoxIASTEPermitee"-->
+            <!--        app:layout_constraintEnd_toEndOf="parent"-->
+            <!--        app:layout_constraintStart_toEndOf="@+id/checkBoxIASTEPermitee"-->
+            <!--        app:layout_constraintTop_toTopOf="@+id/checkBoxIASTEPermitee" />-->
+
+            <!--    <CheckBox-->
+            <!--        android:id="@+id/checkBoxDGCPermitee"-->
+            <!--        android:layout_width="wrap_content"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:text="DGC - Permitee"-->
+            <!--        android:textColor="#000000"-->
+            <!--        app:layout_constraintBottom_toBottomOf="@+id/checkBoxIASTEPermitee"-->
+            <!--        app:layout_constraintEnd_toStartOf="@+id/checkBoxIASTEPermitee"-->
+            <!--        app:layout_constraintHorizontal_bias="0.337"-->
+            <!--        app:layout_constraintStart_toStartOf="parent"-->
+            <!--        app:layout_constraintTop_toTopOf="@+id/checkBoxIASTEPermitee"-->
+            <!--        app:layout_constraintVertical_bias="1.0" />-->
+
+            <!--    <TextView-->
+            <!--        android:id="@+id/textView3"-->
+            <!--        android:layout_width="118dp"-->
+            <!--        android:layout_height="36dp"-->
+            <!--        android:background="@drawable/button_377x144_cc_black"-->
+            <!--        android:text="   Position "-->
+            <!--        android:textColor="#FFFFFF"-->
+            <!--        android:textSize="24sp"-->
+            <!--        app:layout_constraintEnd_toEndOf="parent"-->
+            <!--        app:layout_constraintHorizontal_bias="0.515"-->
+            <!--        app:layout_constraintStart_toStartOf="parent"-->
+            <!--        app:layout_constraintTop_toBottomOf="@+id/checkBoxToronto" />-->
+
+            <!--    <TextView-->
+            <!--        android:id="@+id/textView5"-->
+            <!--        android:layout_width="193dp"-->
+            <!--        android:layout_height="36dp"-->
+            <!--        android:background="@drawable/button_377x144_cc_black"-->
+            <!--        android:text="  Union Affiliation"-->
+            <!--        android:textColor="#FFFFFF"-->
+            <!--        android:textSize="24sp"-->
+            <!--        app:layout_constraintEnd_toEndOf="parent"-->
+            <!--        app:layout_constraintHorizontal_bias="0.518"-->
+            <!--        app:layout_constraintStart_toStartOf="parent"-->
+            <!--        app:layout_constraintTop_toBottomOf="@+id/checkBoxPALampOp" />-->
+
+            <!--    <TextView-->
+            <!--        android:id="@+id/textView"-->
+            <!--        android:layout_width="164dp"-->
+            <!--        android:layout_height="36dp"-->
+            <!--        android:background="@drawable/button_377x144_cc_black"-->
+            <!--        android:text=" Qualifacations"-->
+            <!--        android:textColor="#FFFFFF"-->
+            <!--        android:textSize="24sp"-->
+            <!--        app:layout_constraintEnd_toEndOf="parent"-->
+            <!--        app:layout_constraintHorizontal_bias="0.526"-->
+            <!--        app:layout_constraintStart_toStartOf="parent"-->
+            <!--        app:layout_constraintTop_toBottomOf="@+id/checkBoxIASTEMember" />-->
+
+            <!--    <CheckBox-->
+            <!--        android:id="@+id/checkBoxVancouver"-->
+            <!--        android:layout_width="wrap_content"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:layout_marginTop="16dp"-->
+            <!--        android:text="Vancouver"-->
+            <!--        android:textColor="#000000"-->
+            <!--        app:layout_constraintBottom_toTopOf="@+id/textView2"-->
+            <!--        app:layout_constraintEnd_toStartOf="@+id/checkBoxToronto"-->
+            <!--        app:layout_constraintStart_toStartOf="parent"-->
+            <!--        app:layout_constraintTop_toBottomOf="@+id/textView2"-->
+            <!--        app:layout_constraintVertical_bias="0.2" />-->
+
+            <!--    <CheckBox-->
+            <!--        android:id="@+id/checkBoxToronto"-->
+            <!--        android:layout_width="92dp"-->
+            <!--        android:layout_height="35dp"-->
+            <!--        android:layout_marginEnd="168dp"-->
+            <!--        android:layout_marginRight="168dp"-->
+            <!--        android:text="Toronto"-->
+            <!--        android:textColor="#000000"-->
+            <!--        app:layout_constraintBottom_toBottomOf="@+id/checkBoxMontreal"-->
+            <!--        app:layout_constraintEnd_toEndOf="parent" />-->
+
+            <!--    <CheckBox-->
+            <!--        android:id="@+id/checkBoxMontreal"-->
+            <!--        android:layout_width="wrap_content"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:text="Montreal"-->
+            <!--        android:textColor="#000000"-->
+            <!--        app:layout_constraintEnd_toEndOf="parent"-->
+            <!--        app:layout_constraintStart_toEndOf="@+id/checkBoxToronto"-->
+            <!--        app:layout_constraintTop_toTopOf="@+id/checkBoxVancouver" />-->
+
+            <!--    <TextView-->
+            <!--        android:id="@+id/textView4"-->
+            <!--        android:layout_width="wrap_content"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:text="Canada*"-->
+            <!--        android:textColor="#000000"-->
+            <!--        app:layout_constraintBottom_toBottomOf="@+id/textView2"-->
+            <!--        app:layout_constraintEnd_toEndOf="parent"-->
+            <!--        app:layout_constraintHorizontal_bias="0.117"-->
+            <!--        app:layout_constraintStart_toEndOf="@+id/textView2"-->
+            <!--        app:layout_constraintTop_toTopOf="@+id/textView2"-->
+            <!--        app:layout_constraintVertical_bias="1.0" />-->
+
+            <!--    <CheckBox-->
+            <!--        android:id="@+id/checkBoxPA"-->
+            <!--        android:layout_width="wrap_content"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:text="PA"-->
+            <!--        android:textColor="#000000"-->
+            <!--        app:layout_constraintBottom_toBottomOf="@+id/checkBoxPAPrep"-->
+            <!--        app:layout_constraintEnd_toStartOf="@+id/checkBoxPAPrep"-->
+            <!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+            <!--    <CheckBox-->
+            <!--        android:id="@+id/checkBoxPAPrep"-->
+            <!--        android:layout_width="wrap_content"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:layout_marginEnd="176dp"-->
+            <!--        android:layout_marginRight="176dp"-->
+            <!--        android:text="PA-Prep"-->
+            <!--        android:textColor="#000000"-->
+            <!--        app:layout_constraintEnd_toEndOf="parent"-->
+            <!--        app:layout_constraintTop_toBottomOf="@+id/textView3" />-->
+
+            <!--    <CheckBox-->
+            <!--        android:id="@+id/checkBoxPALampOp"-->
+            <!--        android:layout_width="wrap_content"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:text="LampOp"-->
+            <!--        android:textColor="#000000"-->
+            <!--        app:layout_constraintEnd_toEndOf="@+id/checkBoxPAPrep"-->
+            <!--        app:layout_constraintHorizontal_bias="0.0"-->
+            <!--        app:layout_constraintStart_toStartOf="@+id/checkBoxPAPrep"-->
+            <!--        app:layout_constraintTop_toBottomOf="@+id/checkBoxPAPrep" />-->
+
+            <!--    <CheckBox-->
+            <!--        android:id="@+id/checkBoxGrip"-->
+            <!--        android:layout_width="wrap_content"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:text="Grip"-->
+            <!--        android:textColor="#000000"-->
+            <!--        app:layout_constraintBottom_toBottomOf="@+id/checkBoxPAPrep"-->
+            <!--        app:layout_constraintEnd_toEndOf="parent"-->
+            <!--        app:layout_constraintStart_toEndOf="@+id/checkBoxPAPrep" />-->
+
+            <!--    <CheckBox-->
+            <!--        android:id="@+id/checkBoxDGCMember"-->
+            <!--        android:layout_width="wrap_content"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:layout_marginTop="44dp"-->
+            <!--        android:text="DGC - Member"-->
+            <!--        android:textColor="#000000"-->
+            <!--        app:layout_constraintBottom_toBottomOf="@+id/checkBoxIASTEMember"-->
+            <!--        app:layout_constraintEnd_toStartOf="@+id/checkBoxIASTEMember"-->
+            <!--        app:layout_constraintStart_toStartOf="parent"-->
+            <!--        app:layout_constraintTop_toTopOf="@+id/checkBoxIASTEPermitee"-->
+            <!--        app:layout_constraintVertical_bias="1.0" />-->
+
+            <!--    <CheckBox-->
+            <!--        android:id="@+id/checkBoxIASTEMember"-->
+            <!--        android:layout_width="wrap_content"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:layout_marginTop="32dp"-->
+            <!--        android:text="IASTE - Member"-->
+            <!--        android:textColor="#000000"-->
+            <!--        app:layout_constraintEnd_toEndOf="parent"-->
+            <!--        app:layout_constraintHorizontal_bias="0.453"-->
+            <!--        app:layout_constraintStart_toStartOf="parent"-->
+            <!--        app:layout_constraintTop_toTopOf="@+id/checkBoxIASTEPermitee" />-->
+
+            <!--    <CheckBox-->
+            <!--        android:id="@+id/checkBoxACFCMember"-->
+            <!--        android:layout_width="wrap_content"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:text="ACFC - Member"-->
+            <!--        android:textColor="#000000"-->
+            <!--        app:layout_constraintBottom_toBottomOf="@+id/checkBoxIASTEMember"-->
+            <!--        app:layout_constraintEnd_toEndOf="parent"-->
+            <!--        app:layout_constraintStart_toEndOf="@+id/checkBoxIASTEMember"-->
+            <!--        app:layout_constraintTop_toTopOf="@+id/checkBoxIASTEMember" />-->
+
+            <!--    <CheckBox-->
+            <!--        android:id="@+id/checkBox"-->
+            <!--        android:layout_width="wrap_content"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:text="CheckBox"-->
+            <!--        android:textColor="#000000"-->
+            <!--        app:layout_constraintEnd_toEndOf="parent"-->
+            <!--        app:layout_constraintHorizontal_bias="0.441"-->
+            <!--        app:layout_constraintStart_toStartOf="parent"-->
+            <!--        app:layout_constraintTop_toBottomOf="@+id/textView" />-->
+
+            <!--    <CheckBox-->
+            <!--        android:id="@+id/checkBox3"-->
+            <!--        android:layout_width="wrap_content"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:text="CheckBox"-->
+            <!--        android:textColor="#000000"-->
+            <!--        app:layout_constraintEnd_toEndOf="parent"-->
+            <!--        app:layout_constraintStart_toEndOf="@+id/checkBox"-->
+            <!--        app:layout_constraintTop_toBottomOf="@+id/textView" />-->
+
+            <!--    <CheckBox-->
+            <!--        android:id="@+id/checkBox4"-->
+            <!--        android:layout_width="wrap_content"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:layout_marginTop="32dp"-->
+            <!--        android:text="CheckBox"-->
+            <!--        android:textColor="#FFFFFF"-->
+            <!--        app:layout_constraintEnd_toEndOf="parent"-->
+            <!--        app:layout_constraintHorizontal_bias="0.512"-->
+            <!--        app:layout_constraintStart_toEndOf="@+id/checkBox"-->
+            <!--        app:layout_constraintTop_toBottomOf="@+id/textView" />-->
+
+            <!--    <CheckBox-->
+            <!--        android:id="@+id/checkBox5"-->
+            <!--        android:layout_width="wrap_content"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:text="CheckBox"-->
+            <!--        android:textColor="#FFFFFF"-->
+            <!--        app:layout_constraintEnd_toStartOf="@+id/checkBox"-->
+            <!--        app:layout_constraintHorizontal_bias="0.558"-->
+            <!--        app:layout_constraintStart_toStartOf="parent"-->
+            <!--        app:layout_constraintTop_toTopOf="@+id/checkBox" />-->
+
+            <!--    <CheckBox-->
+            <!--        android:id="@+id/checkBox6"-->
+            <!--        android:layout_width="wrap_content"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:layout_marginTop="32dp"-->
+            <!--        android:text="CheckBox"-->
+            <!--        android:textColor="#FFFFFF"-->
+            <!--        app:layout_constraintEnd_toStartOf="@+id/checkBox"-->
+            <!--        app:layout_constraintHorizontal_bias="0.558"-->
+            <!--        app:layout_constraintStart_toStartOf="parent"-->
+            <!--        app:layout_constraintTop_toTopOf="@+id/checkBox" />-->
+
+            <!--    <CheckBox-->
+            <!--        android:id="@+id/checkBox2"-->
+            <!--        android:layout_width="wrap_content"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:text="CheckBox"-->
+            <!--        android:textColor="#FFFFFF"-->
+            <!--        app:layout_constraintEnd_toEndOf="@+id/checkBox"-->
+            <!--        app:layout_constraintHorizontal_bias="0.0"-->
+            <!--        app:layout_constraintStart_toStartOf="@+id/checkBox"-->
+            <!--        app:layout_constraintTop_toBottomOf="@+id/checkBox" />-->
+
+            <!--    <TextView-->
+            <!--        android:id="@+id/textViewNameTest"-->
+            <!--        android:layout_width="wrap_content"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:layout_marginTop="36dp"-->
+            <!--        android:text="TextView"-->
+            <!--        android:textColor="#00FFFFFF"-->
+            <!--        android:textColorHint="#FDFDFD"-->
+            <!--        app:layout_constraintEnd_toEndOf="parent"-->
+            <!--        app:layout_constraintStart_toEndOf="@+id/imageViewProfilePhoto"-->
+            <!--        app:layout_constraintTop_toBottomOf="@+id/editTextFirstName" />-->
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/sign_up_profile_image"
+        android:layout_width="130dp"
+        android:layout_height="129dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/profile">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <EditText
+        android:id="@+id/editTextFirstName"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sign_up_profile_image"
+        android:layout_alignStart="@+id/sign_up_profile_image"
+        android:layout_alignLeft="@+id/sign_up_profile_image"
+
+        android:layout_marginStart="-124dp"
+        android:layout_marginLeft="-124dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/inputs"
+        android:drawableLeft="@drawable/name"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="First Name..."
+        android:inputType="textPersonName"
+        android:textColor="#020202"
+        android:textColorHint="#834E4A4A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextFirstName"
+        android:layout_alignStart="@+id/sign_up_profile_image"
+        android:layout_alignLeft="@+id/sign_up_profile_image"
+        android:layout_marginStart="-124dp"
+        android:layout_marginLeft="-124dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="0dp"
+
+        android:layout_marginRight="0dp"
+        android:background="@drawable/inputs"
+        android:drawableLeft="@drawable/name"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+
+        android:textColor="#020202"
+        android:textColorHint="#834E4A4A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextPhoneNumber"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextFirstName"
+        android:layout_alignStart="@+id/sign_up_profile_image"
+        android:layout_alignLeft="@+id/sign_up_profile_image"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/inputs"
+        android:drawableLeft="@drawable/name"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:textColor="#020202"
+        android:textColorHint="#834E4A4A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <EditText
+        android:id="@+id/editTextLastName"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/editTextFirstName"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="1dp"
+        android:layout_toEndOf="@+id/editTextFirstName"
+        android:layout_toRightOf="@+id/editTextFirstName"
+        android:background="@drawable/inputs"
+        android:drawableStart="@drawable/name"
+        android:drawableLeft="@drawable/name"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Last Name..."
+        android:inputType="textPersonName"
+        android:textColor="#020202"
+        android:textColorHint="#834E4A4A" />
+
+    <Button
+        android:id="@+id/sign_up_information_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+
+        android:layout_above="@+id/add_day_photos"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-9dp"
+        android:background="@drawable/button"
+        android:padding="14dp"
+        android:text="Save"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+    <Spinner
+        android:id="@+id/countrySpinner"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextEmail"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="32dp" />
+
+    <Spinner
+        android:id="@+id/primary_department_spinner"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/countrySpinner"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="56dp" />
+
+    <Spinner
+        android:id="@+id/positionSpinner"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/primary_department_spinner"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="22dp" />
+
+    <!--        </RelativeLayout>-->
+<!--    </ScrollView>-->
+
+    <Spinner
+        android:id="@+id/primaryDepartmentSpinner"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextEmail"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="215dp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="31dp" />
+
+    <Spinner
+        android:id="@+id/citySpinner"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextEmail"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="74dp" />
+
+    <ImageView
+        android:id="@+id/add_day_photos"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:foregroundGravity="center|center_horizontal"
+        app:srcCompat="@drawable/ic_corstan_ot_offical" />
+
+
+</RelativeLayout>

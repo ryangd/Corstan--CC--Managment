@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Property of:				GreenDot Management Systems Inc.
+  ~ 		                                               A Division Of
+  ~                                                 Corstan Systems Inc.
+  ~
+  ~ Written By: Ryan Stander
+  ~ ryanstander@gmail.com
+  ~ June 17, 2020
+  ~
+  ~ Copyright (c)     TradeMark Reserved (tm)
+  ~
+  -->
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="325dp"
+    android:layout_height="45dp"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@color/ccBlue"
+    app:cardElevation="10dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+
+        <EditText
+            android:id="@+id/cardviewCallTimeEditText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="22dp"
+            android:layout_marginRight="127.5dp"
+            android:background="@drawable/inputs"
+
+            android:hint=" Call Time "
+
+            android:textSize="14sp"
+
+
+            android:textStyle="bold" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/cardviewProfilePicture"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+
+            android:layout_alignParentTop="true"
+
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/profile">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:id="@+id/availableStaffCardUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/background_light"
+            android:layout_alignLeft="@id/cardviewProfilePicture"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="2dp"
+            android:textSize="16sp"
+            android:hint="Full Name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/availableStaffCardUserPosition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/background_light"
+            android:layout_alignLeft="@id/cardviewProfilePicture"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="21dp"
+            android:textSize="15sp"
+            android:textStyle="bold|italic"
+            android:hint="Position"
+            />
+
+
+        <Button
+            android:id="@+id/availableStaffCardAddLocationToDayB"
+            android:layout_width="121dp"
+            android:layout_marginTop="22dp"
+            android:layout_height="18dp"
+            android:textSize="10sp"
+            android:layout_marginStart="200dp"
+            android:layout_marginLeft="1dp"
+
+            android:background="@android:color/holo_green_dark"
+            android:clickable="true"
+            android:shadowColor="#00948E8E"
+            android:shadowRadius="5"
+            android:text="Add To Day" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+
+
+
+
+
+

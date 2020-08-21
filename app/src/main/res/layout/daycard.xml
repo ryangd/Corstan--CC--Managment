@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Property of:				GreenDot Management Systems Inc.
+  ~ 		                                               A Division Of
+  ~                                                 Corstan Systems Inc.
+  ~
+  ~ Written By: Ryan Stander
+  ~ ryanstander@gmail.com
+  ~ June 17, 2020
+  ~
+  ~ Copyright (c)     TradeMark Reserved (tm)
+  ~
+  -->
+
+<androidx.cardview.widget.CardView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="325dp"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+app:cardElevation="10dp"
+    android:id="@+id/daycard">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/locationCardLocationIntExt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_marginTop="80dp"
+            android:layout_centerHorizontal="true"
+            android:hint="_________________________________________________"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dayCardToday"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             />
+
+        <TextView
+            android:id="@+id/dayCardEpisodeName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dayCardDayDateDBFormat"
+            android:layout_marginTop="0dp"
+            android:layout_centerHorizontal="true"
+            android:hint="Episode Name"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/dayCardDayDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="24dp"
+
+            android:textSize="15.5dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/dayCardDayDateDBFormat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+
+            android:hint="DateDBFormat"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/episodeDayOfDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_above="@+id/dayCardGoToDayB"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="-25dp"
+            android:hint="Ep. Day "
+            android:textSize="15sp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp" />
+
+        <TextView
+            android:id="@+id/episodeDayOfDay2"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/episodeDayOfDay"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:gravity="right"
+            android:textAlignment="gravity"
+            android:layout_marginBottom="14dp"
+            android:hint="Ep. Day "
+            android:textSize="15sp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp" />
+
+        <TextView
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_above="@+id/episodeDayOfDay2"
+
+            android:layout_alignStart="@+id/episodeDayOfDay2"
+            android:layout_alignLeft="@+id/episodeDayOfDay2"
+            android:layout_alignEnd="@+id/episodeDayOfDay2"
+            android:layout_alignRight="@+id/episodeDayOfDay2"
+
+
+            android:hint="Ep. Day "
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/episodeDayOfDay"
+
+
+            android:layout_alignEnd="@+id/episodeDayOfDay"
+            android:layout_alignRight="@+id/episodeDayOfDay"
+
+            android:layout_marginBottom="0dp"
+            android:gravity="center_horizontal"
+            android:hint="Est. CrewCall "
+            android:textAlignment="center"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/dayCardGoToDayB"
+            android:layout_width="121dp"
+            android:layout_height="18dp"
+            android:textSize="10sp"
+            android:layout_below="@+id/dayCardDayDate"
+
+            android:layout_marginStart="200dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="26dp"
+            android:background="@android:color/holo_green_dark"
+            android:clickable="true"
+            android:shadowColor="#00948E8E"
+            android:shadowRadius="5"
+            android:text="Go To Day" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

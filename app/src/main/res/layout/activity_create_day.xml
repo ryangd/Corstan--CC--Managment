@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Property of:				GreenDot Management Systems Inc.
+  ~ 		                                               A Division Of
+  ~                                                 Corstan Systems Inc.
+  ~
+  ~ Written By: Ryan Stander
+  ~ ryanstander@gmail.com
+  ~ June 17, 2020
+  ~
+  ~ Copyright (c)     TradeMark Reserved (tm)
+  ~
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/create_day_date"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".CreateDayActivity">
+
+    <include
+        android:id="@+id/create_day_toolbar"
+        layout="@layout/app_bar_layout" />
+
+    <Button
+        android:id="@+id/create_day_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginRight="1dp"
+        android:background="@drawable/button"
+        android:text="Create Day" />
+
+    <Spinner
+        android:id="@+id/day_of_week_spinner"
+        android:layout_width="166dp"
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="81dp" />
+
+    <EditText
+        android:id="@+id/editTextEditDayDate"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginLeft="117dp"
+        android:layout_marginTop="75dp"
+        android:layout_toEndOf="@+id/day_of_week_spinner"
+        android:layout_toRightOf="@+id/day_of_week_spinner"
+        android:ems="10"
+        android:hint="dd/mm/yyyy"
+        />
+
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="23dp"-->
+    <!--        android:text="Create Day"-->
+    <!--        android:textSize="18sp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.023" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/editTextDayAddress"-->
+    <!--        android:layout_width="192dp"-->
+    <!--        android:layout_height="46dp"-->
+    <!--        android:layout_marginStart="36dp"-->
+    <!--        android:layout_marginLeft="36dp"-->
+    <!--        android:layout_marginTop="12dp"-->
+    <!--        android:ems="10"-->
+    <!--        android:hint="Address/Crew Park"-->
+    <!--        android:inputType="textPersonName"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/editText3" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/editTextDayCity"-->
+    <!--        android:layout_width="192dp"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        android:layout_marginTop="24dp"-->
+    <!--        android:ems="10"-->
+    <!--        android:hint="City"-->
+    <!--        android:inputType="textPersonName"-->
+    <!--        app:layout_constraintEnd_toStartOf="@+id/createDayB"-->
+    <!--        app:layout_constraintHorizontal_bias="0.578"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/editTextDayAddress" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/editTextDayShow"-->
+    <!--        android:layout_width="192dp"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        android:layout_marginTop="84dp"-->
+    <!--        android:ems="10"-->
+    <!--        android:hint="Show ***Drop Down***"-->
+    <!--        android:inputType="textPersonName"-->
+    <!--        app:layout_constraintEnd_toStartOf="@+id/createDayB"-->
+    <!--        app:layout_constraintHorizontal_bias="0.578"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/editTextDayAddress" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/editTextDayDay"-->
+    <!--        android:layout_width="192dp"-->
+    <!--        android:layout_height="46dp"-->
+    <!--        android:layout_marginStart="36dp"-->
+    <!--        android:layout_marginLeft="36dp"-->
+    <!--        android:layout_marginTop="8dp"-->
+    <!--        android:ems="10"-->
+    <!--        android:hint="Day Of The Week"-->
+    <!--        android:inputType="textPersonName"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/textView" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/editText3"-->
+    <!--        android:layout_width="132dp"-->
+    <!--        android:layout_height="47dp"-->
+    <!--        android:layout_marginTop="124dp"-->
+    <!--        android:ems="10"-->
+    <!--        android:inputType="textPersonName"-->
+    <!--        android:text="Location"-->
+    <!--        android:textSize="24sp"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.498"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/textView" />-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/editTextDayDate"-->
+    <!--        android:layout_width="133dp"-->
+    <!--        android:layout_height="46dp"-->
+    <!--        android:layout_marginTop="8dp"-->
+    <!--        android:layout_marginEnd="24dp"-->
+    <!--        android:layout_marginRight="24dp"-->
+    <!--        android:ems="10"-->
+    <!--        android:hint="Date"-->
+    <!--        android:inputType="date"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.807"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/editTextDayDay"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/textView" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/createDayB"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="256dp"-->
+    <!--        android:layout_marginLeft="256dp"-->
+    <!--        android:layout_marginBottom="388dp"-->
+    <!--        android:text="Create Day"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/editTextDayDate"-->
+    <!--        app:layout_constraintVertical_bias="1.0" />-->
+
+    <!--    <Spinner-->
+    <!--        android:id="@+id/selectDaySpinner"-->
+    <!--        android:layout_width="409dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="68dp"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/textView" />-->
+
+</RelativeLayout>

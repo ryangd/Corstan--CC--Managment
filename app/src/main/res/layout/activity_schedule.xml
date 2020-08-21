@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Property of:				GreenDot Management Systems Inc.
+  ~ 		                                               A Division Of
+  ~                                                 Corstan Systems Inc.
+  ~
+  ~ Written By: Ryan Stander
+  ~ ryanstander@gmail.com
+  ~ June 17, 2020
+  ~
+  ~ Copyright (c)     TradeMark Reserved (tm)
+  ~
+  -->
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".ScheduleActivity">
+
+    <Button
+        android:id="@+id/createDayB"
+        android:layout_width="377dp"
+        android:layout_height="89dp"
+        android:layout_marginBottom="172dp"
+        android:background="@drawable/button_377x144_cc_purple"
+        android:shadowColor="#00948E8E"
+        android:shadowRadius="5"
+        android:text="Create Day"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/showStaffB"
+        android:layout_width="377dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_377x144_cc_purple"
+        android:shadowColor="#00948E8E"
+        android:shadowRadius="5"
+        android:text="Availability"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createDayB" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewScheduleDay"
+        android:layout_width="376dp"
+        android:layout_height="322dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
